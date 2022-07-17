@@ -1,17 +1,12 @@
- *{
-    margin: 0;
-    padding: 0;
- }   
+:root{
+    --z-index: 10;
 
- body{
-    width: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
- }
+}
 
  .parallax{
+    
     width: 100%;
-    height: 100vh;
-    background-image: url("/assets/images/img2.jpg");
+    height: 70vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,6 +17,13 @@
     align-items: center;
 }
 
+.parallax-uno{
+    background-image: url("/assets/images/imagenUno.jpg");
+}
+
+.parallax-dos{
+    background-image: url("/assets/images/imagenDos.jpg");
+}
 .text{
     background: #111a;
     padding: 18px;
@@ -45,7 +47,6 @@ left: 0;
 right: 0;
 margin: -150px auto ;
 
-    
 }
 .espacio{
     padding: 30px 0 60px 0;
@@ -59,17 +60,67 @@ p{
     text-align: justify;
 }
 
-.section{
-    height: 100vh;
-    background-image: url("/assets/images/img1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.header{
+    position: fixed;
+    height: 56xpx;
+    width: 100%;
+    background-color: #ddd;
+    z-index: 10;
 }
 
+.logo-header-Link, .logo-header-container{
+    display: flex;
+}
+
+.logo-header-figure{
+    width:30px;
+     height:30px;
+    margin:-2px  8px;
+}
+
+.logo-header-text {
+    font-size: 18px;
+    margin: 5px 0;
+}
+    
+.collapse, .navbar-collapse{
+flex-direction: row-reverse;
+}
+
+
+.navbar-expand-sm, .navbar-collapse{
+   min-width: 630;
+}
+
+.button-login-cta{
+    margin-right: 20px;
+    margin-top: 5px;
+
+}
+
+.button__styles{
+    background-color: rgb(70, 236, 139);
+    width: 120px;
+    height: 30px;
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+}
+
+.button{
+    margin-left: 5px;
+}
+
+.button-link{
+    text-decoration: none;
+    margin: auto;
+    width: 95px;
+    height: 25px;
+    display: block;
+    padding-top: 3px;
+    color: #000;
+}
