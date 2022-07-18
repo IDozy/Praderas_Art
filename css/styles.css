@@ -9,10 +9,15 @@
     --bg-color-transparent-title:  #111a;
     --bg-color-transparent-text:  #aaad;
     --bg-color-header : #052d61dd;
-    --bg-color-button:  rgb(70, 236, 139);
-    
-    
+    --bg-color-button:  rgb(70, 236, 139);  
 }
+
+@font-face {
+    font-family: Blueberry Days;
+    src: url("/assets/fonts/Blueberry\ Days.ttf");
+}
+
+
 
  .parallax{
     
@@ -58,15 +63,11 @@
 
 }
 
-@font-face {
-    font-family: texto;
-    src: url("/assets/fonts/Blueberry\ Days.otf");
+.description-text{
+    font-size: 29px;
+   font-family: Blueberry Days;
 }
 
-.description-text{
-    font-size: 32px;
-  
-}
 
 .center{
     background: var(--bg-color-transparent-text);
