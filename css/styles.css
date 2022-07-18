@@ -24,37 +24,34 @@
     background-attachment: fixed;
     margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+   /* justify-content: center;
+    align-items: center;*/
 }
 
 .parallax-uno{
-<<<<<<< HEAD
+
     background-image: url("/assets/images/imagenUno.jpg");
     justify-content: flex-start;
-=======
-    background-image: url("/Praderas_Art/assets/images/imagenUno.jpg");
->>>>>>> 94ba7301d1732077f460a9da416d97201b2a6648
-}
 
+}
 .parallax-dos{
-    background-image: url("/Praderas_Art/assets/images/imagenDos.jpg");
+    background-image: url("/assets/images/imagenDos.jpg");
 }
 
-.descripcion{
+
 .parallax-tres{
-    background-image: url("/Praderas_Art/assets/images/imagenTres.jpg");
+    background-image: url("/assets/images/imagenTres.jpg");
 }
 
 .parallax-Cuatro{
-    background-image: url("/Praderas_Art/assets/images/imagenCuatro.jpg");
+    background-image: url("/assets/images/imagenCuatro.jpg");
 }
 
-.text{
+.description-text{
     background: var(--bg-color-transparent-title);
     padding: 30px;
     width: 450px;
-    height: 45vh;
+    height: 50vh;
     text-align: justify;
     color: var(--bg-color-text);
     margin: 150px 5%;
