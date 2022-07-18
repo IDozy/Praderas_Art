@@ -8,15 +8,16 @@
     --bg-color-text2: #000;
     --bg-color-transparent-title:  #111a;
     --bg-color-transparent-text:  #aaad;
-    --bg-color-header : #c924dfb9;
+    --bg-color-header : #052d61dd;
     --bg-color-button:  rgb(70, 236, 139);
+    
     
 }
 
  .parallax{
     
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,21 +30,32 @@
 
 .parallax-uno{
     background-image: url("/assets/images/imagenUno.jpg");
+    justify-content: flex-start;
 }
 
 .parallax-dos{
     background-image: url("/assets/images/imagenDos.jpg");
 }
-.text{
+
+.descripcion{
     background: var(--bg-color-transparent-title);
-    padding: 18px;
-    width: 320px;
-    text-align: center;
+    padding: 30px;
+    width: 450px;
+    height: 45vh;
+    text-align: justify;
     color: var(--bg-color-text);
+    margin: 150px 5%;
+
 }
 
-h2{
+@font-face {
+    font-family: texto;
+    src: url("/assets/fonts/Blueberry\ Days.otf");
+}
+
+.description-text{
     font-size: 32px;
+  
 }
 
 .center{
