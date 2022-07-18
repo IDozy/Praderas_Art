@@ -6,9 +6,9 @@
 
     --bg-color-text: #fff;
     --bg-color-text2: #000;
-    --bg-color-transparent-title:  #111a;
+    --bg-color-transparent-title:  #ff59;
     --bg-color-transparent-text:  #aaad;
-    --bg-color-header : #052d61dd;
+    --bg-color-header : hsla(215, 100%, 18%, 0.921);
     --bg-color-button:  rgb(70, 236, 139);  
 }
 
@@ -35,17 +35,17 @@
 
 .parallax-uno{
 
-    background-image: url("/assets/images/imagenUno.jpg");
+    background-image: url("/assets/images/imagenCinco.jpg");
     justify-content: flex-start;
 
 }
 .parallax-dos{
-    background-image: url("/assets/images/imagenDos.jpg");
+    background-image: url("/assets/images/imagenNueve.jpg");
 }
 
 
 .parallax-tres{
-    background-image: url("/assets/images/imagenTres.jpg");
+    background-image: url("/assets/images/imagenSiete.jpg");
 }
 
 .parallax-Cuatro{
@@ -58,15 +58,14 @@
     width: 450px;
     height: auto;
     text-align: justify;
-    color: var(--bg-color-text);
-    margin: 100px 5%;
+    color: var(--bg-color-text2);
+    margin: 110px 10%;
 
-}
-
-.description-text{
     font-size: 29px;
-   font-family: Blueberry Days;
+    font-family: Blueberry Days;
+
 }
+
 
 .center{
     background: var(--bg-color-transparent-text);
