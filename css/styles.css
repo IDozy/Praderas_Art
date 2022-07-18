@@ -1,5 +1,5 @@
 :root{
-    --z-index-1: 10;
+    --z-index-nav: 40;
     --z-index-2: 20;
     --z-index-3: 30;
     --z-index-4: 40;
@@ -28,12 +28,21 @@
 }
 
 .parallax-uno{
-    background-image: url("/assets/images/imagenUno.jpg");
+    background-image: url("/Praderas_Art/assets/images/imagenUno.jpg");
 }
 
 .parallax-dos{
-    background-image: url("/assets/images/imagenDos.jpg");
+    background-image: url("/Praderas_Art/assets/images/imagenDos.jpg");
 }
+
+.parallax-tres{
+    background-image: url("/Praderas_Art/assets/images/imagenTres.jpg");
+}
+
+.parallax-Cuatro{
+    background-image: url("/Praderas_Art/assets/images/imagenCuatro.jpg");
+}
+
 .text{
     background: var(--bg-color-transparent-title);
     padding: 18px;
@@ -72,7 +81,7 @@ p{
 .header{
     position: fixed;
     width: 100%;
-    z-index: var(--z-index-1);
+    z-index: var(--z-index-nav);
     padding: 0;
     background-color: var(--bg-color-header);
 }
