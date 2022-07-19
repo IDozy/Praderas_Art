@@ -15,7 +15,10 @@
     --bg-color-transparent-title:  #ff59;
     --bg-color-transparent-text:  #aaad;
     --bg-color-header : hsla(215, 100%, 18%, 0.921);
-    --bg-color-button:  rgb(70, 236, 139);  
+    --bg-color-button:  rgb(70, 236, 139);
+    
+    --bg-color-load1: #ff0000;
+    --bg-color-load2: rgb(255,255,0);
 }
 
 @font-face {
@@ -161,7 +164,7 @@ flex-direction: row-reverse;
 /* Preloader */
 
 .preloader {
-    background: #F9F9F9;
+    background: var(--bg-color-header);
     bottom: 0;
     left: 0;
     position: fixed;
@@ -177,7 +180,7 @@ flex-direction: row-reverse;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    color: #fd0000;
+    color: var(--bg-color-text);
 }
 
 .preloader:before, .preloader:after {
@@ -187,14 +190,14 @@ flex-direction: row-reverse;
     position: absolute;
     top: 40%;
     left: 40%;
-    background-color: #1e3f63;
+    background-color: var(--bg-color-load1);
     animation: squaremove 1s ease-in-out infinite;
     -webkit-animation: squaremove 1s ease-in-out infinite;
 }
 
 .preloader:after {
     bottom: 0px;
-    background-color: #f10c60;
+    background-color: var(--bg-color-load2);
     animation-delay: 0.3s;
 }
 
