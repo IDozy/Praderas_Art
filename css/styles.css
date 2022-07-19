@@ -43,7 +43,9 @@
 .parallax-uno{
 
     background-image: url("/assets/images/imagenCinco.jpg");
-    justify-content: flex-start;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    row-gap: 20px;
 
 }
 .parallax-dos{
@@ -59,19 +61,40 @@
     background-image: url("/assets/images/imagenCuatro.jpg");
 }
 
+
+
+.container-text{
+    width: 40%;
+    min-width: 350px;
+    
+}
+
+
 .description-text{
     background: var(--bg-color-transparent-title);
     padding: 30px;
-    width: 450px;
+    min-height: 53vh;
     height: auto;
     text-align: justify;
     color: var(--bg-color-text2);
-    margin: 110px 10%;
-
-    font-size: 29px;
+    margin: 100px 0 0 10% ;
     font-family: Blueberry Days;
-
 }
+
+
+
+.container-galeria{
+    width: 50%;
+   min-width: 350px;
+    margin: 100px 4% 0 0 ;
+}
+
+.galerias-arte__tamaño{
+    width: 550px;
+    height: 405px;
+    overflow: hidden;
+}
+
 
 .center{
     background: var(--bg-color-transparent-text);
