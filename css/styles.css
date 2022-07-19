@@ -1,8 +1,14 @@
 :root{
-    --z-index-nav: 40;
-    --z-index-2: 20;
-    --z-index-3: 30;
-    --z-index-4: 40;
+    --z-index-1: 100;
+    --z-index-2: 200;
+    --z-index-3: 300;
+    --z-index-4: 400;
+    --z-index-5: 500;
+    --z-index-6: 600;
+    --z-index-7: 700;
+    --z-index-8: 800;
+    --z-index-9: 900;
+    --z-index-10: 10000;
 
     --bg-color-text: #fff;
     --bg-color-text2: #000;
@@ -93,7 +99,7 @@ p{
 .header{
     position: fixed;
     width: 100%;
-    z-index: var(--z-index-nav);
+    z-index: var(--z-index-4);
     padding: 0;
     background-color: var(--bg-color-header);
 }
@@ -164,7 +170,7 @@ flex-direction: row-reverse;
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 99999;
+    z-index: var(--z-index-10);
 }
 
 .preloader p {
@@ -172,8 +178,9 @@ flex-direction: row-reverse;
     top: 48%;
     left: 50%;
     text-align: center;
-    font-size: 20px;
-    color: #333333;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #fd0000;
 }
 
 .preloader:before, .preloader:after {
@@ -183,14 +190,14 @@ flex-direction: row-reverse;
     position: absolute;
     top: 40%;
     left: 40%;
-    background-color: #4c9cef;
+    background-color: #1e3f63;
     animation: squaremove 1s ease-in-out infinite;
     -webkit-animation: squaremove 1s ease-in-out infinite;
 }
 
 .preloader:after {
     bottom: 0px;
-    background-color: #f7639a;
+    background-color: #f10c60;
     animation-delay: 0.3s;
 }
 
