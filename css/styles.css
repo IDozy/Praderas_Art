@@ -12,13 +12,14 @@
 
     --bg-color-text: #fff;
     --bg-color-text2: #000;
-    --bg-color-transparent-title:  #ff59;
+    --bg-color-transparent-title:  rgba(233, 233, 32, 0.405);
     --bg-color-transparent-text:  #aaad;
     --bg-color-header : hsla(215, 100%, 18%, 0.921);
     --bg-color-button:  rgb(70, 236, 139);
     
     --bg-color-load1: #ff0000;
     --bg-color-load2: rgb(255,255,0);
+    --bg-color-blur: rgba(255, 255, 255, 0.221);
 }
 
 @font-face {
@@ -79,6 +80,9 @@
     color: var(--bg-color-text2);
     margin: 100px 0 0 10% ;
     font-family: Blueberry Days;
+ 
+    
+    
 }
 
 
@@ -99,25 +103,38 @@
     font-size: 55px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold  ;
+   
 }
 
 .center{
-    background: var(--bg-color-transparent-text);
+    background: var(--bg-color-blur);
     max-width: 1100px;
     width: 90%;
     overflow: hidden;
-    position: absolute; 
+    position: absolute;
     left: 0;
     right: 0;
-    margin: -150px auto ;
-
+    margin: -100px auto ;
+    backdrop-filter: blur(5px);
+    border-radius: 30px ;
+    -webkit-border-radius: 30px ;
+    -moz-border-radius: 30px ;
+    -ms-border-radius: 30px ;
+    -o-border-radius: 30px ;
 }
 
 .informacion-texto{
-    font-size: 30px;
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
+   
     padding:  0 30px;
+    
+}
+
+.texto-importante{
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -126,7 +143,6 @@
 }
 .espacio h2{
     text-align: center;
-    padding: 30px;
 }
 
 p{
