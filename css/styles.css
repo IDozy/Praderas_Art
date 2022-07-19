@@ -95,6 +95,11 @@
     overflow: hidden;
 }
 
+.titulos{
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold  ;
+}
 
 .center{
     background: var(--bg-color-transparent-text);
@@ -107,6 +112,15 @@
     margin: -150px auto ;
 
 }
+
+.informacion-texto{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding:  0 30px;
+}
+
+
 .espacio{
     padding: 30px 0 60px 0;
 }
