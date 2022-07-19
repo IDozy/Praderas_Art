@@ -51,6 +51,8 @@
 }
 .parallax-dos{
     background-image: url("/assets/images/imagenNueve.jpg");
+    justify-content: center;
+    align-items: center;
 }
 
 
