@@ -39,6 +39,7 @@
     display: flex;
    /* justify-content: center;
     align-items: center;*/
+    z-index: var(--z-index-5);
 }
 
 .parallax-uno{
@@ -546,6 +547,13 @@ a.btn:hover {
     
     width: 80px;
     height: 80px;
- 
     
+}
+
+.modal{
+    z-index: var(--z-index-10);
+}
+
+.modal-backdrop{
+    position: relative !important;
 }

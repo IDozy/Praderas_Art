@@ -58,11 +58,49 @@
                   <a class="nav-link" href="#">Contactanos</a>
                 </li> 
                 <li class="nav-item button">
-                    <div class="button-login-cta">
-                        <div class="button__styles">
-                            <a class="button-link" href="#">Iniciar Secion</a>
+                  
+                  <div class="container"> 
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dialogo1">Inicio Sesion</button>
+                
+                    <div class="modal fade" id="dialogo1">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <!-- cabecera del diálogo -->
+                          <div class="modal-header" >
+                            <h5 class="modal-title" id="exampleModalLabel" >Iniciar Sesion</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                          </div>
+                          <!-- cuerpo del diálogo -->
+                          <div class="modal-body">
+                           
+                            <div class="container">
+
+                              <form>
+                                <div class="mb-3">
+                                  <label for="nombre" class="form-label">Ingrese su nombre:</label>
+                                  <input type="text" class="form-control" id="nombre" name="nombre">        
+                                </div>
+                                <div class="mb-3">
+                                  <label for="clave" class="form-label">Ingrese su clave:</label>
+                                  <input type="password" class="form-control" id="clave" name="clave">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Confirmar</button>
+                              </form>      
+                          
+                            </div> 
+                            
+
+                          </div>
+                          <!-- pie del diálogo -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>    
+              </div>
+
                 </li>           
               </ul>
             </div>
