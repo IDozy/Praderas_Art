@@ -72,28 +72,34 @@
 .description-text{
     background: var(--bg-color-transparent-title);
     padding: 30px;
-    min-height: 53vh;
+    min-height: auto;
     height: auto;
     text-align: justify;
     color: var(--bg-color-text2);
-    margin: 100px 0 0 10% ;
+    margin: 17% 0 0 10% ;
     font-family: Blueberry Days;
+ font-size: 2vw;
+    
+    
 }
 
 .container-galeria{
     width: 50%;
-   min-width: 350px;
-    margin: 100px 4% 0 0 ;
+   min-width: 50vh;
+  
+   min-height: 2vh;
+    margin: 6.5% 4% 0 4px ;
 }
 
 .galerias-arte__tamaño{
     width: 550px;
     height: 405px;
     overflow: hidden;
+    margin-bottom: 10%;
 }
 
 .titulos{
-    font-size: 55px;
+    font-size: 3.5vw;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold  ;
    
@@ -101,36 +107,36 @@
 
 .center{
     background: var(--bg-color-blur);
-    max-width: 1100px;
-    width: 90%;
+    max-width: 70%;
+    
     overflow: hidden;
     position: absolute;
     left: 0;
     right: 0;
-    margin: -100px auto ;
+    margin: -10% auto ;
     backdrop-filter: blur(5px);
     border-radius: 30px ;
     -webkit-border-radius: 30px ;
     -moz-border-radius: 30px ;
     -ms-border-radius: 30px ;
     -o-border-radius: 30px ;
+    
 }
 
 .informacion-texto{
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   
-    padding:  0 30px;
+    padding:  0 30px;    
 }
 
 .texto-importante{
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 2.5vw;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .espacio{
-    padding: 30px 0 60px 0;
+    padding: 30px 0 30px 0;
 }
 .espacio h2{
     text-align: center;
@@ -173,6 +179,32 @@ flex-direction: row-reverse;
     margin-top: 5px;
 
 }
+
+
+
+.button-empezar{
+    width: 50vh;
+    height: 10vh;
+    background-color: var(--bg-color-button);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25%;
+    border-radius: 25px 0 25px ;
+    -webkit-border-radius: 25px 0 25px ;
+    -moz-border-radius: 25px 0 25px ;
+    -ms-border-radius: 25px 0 25px ;
+    -o-border-radius: 25px 0 25px ;
+
+}
+
+.button-empezar-text{
+    font-family: 'Courier New', Courier, monospace ;
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
 
 .button__styles{
     background-color: var(--bg-color-button);
@@ -277,6 +309,7 @@ flex-direction: row-reverse;
 .footer{
 	background:rgb(0, 0, 0);
 	padding:1.5% 0;
+   
 
 }		
 ul.footer_box{
@@ -433,3 +466,37 @@ margin-top: 20px;
     
 }
 
+
+.cursos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: -25% auto 100% auto;
+    
+}
+.cursos--text{
+    border: 1px solid var(--bg-color-hex);
+    margin: 5px;
+    text-align: justify;
+    padding: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cursos--img{
+    margin:5px 40%;
+    width: 50px;
+    height: 50px;
+}
+.title-curso{
+    font-size: medium;
+    color: var(--bg-color-curso);
+
+}
+
+.button-Cursos{
+    width: 50vh;
+    margin: auto;
+    margin-bottom: 15px;
+}
