@@ -55,7 +55,6 @@
     align-items: center;
 }
 
-
 .parallax-tres{
     background-image: url("/assets/images/imagenSiete.jpg");
 }
@@ -64,14 +63,11 @@
     background-image: url("/assets/images/imagenCuatro.jpg");
 }
 
-
-
 .container-text{
     width: 40%;
     min-width: 350px;
     
 }
-
 
 .description-text{
     background: var(--bg-color-transparent-title);
@@ -86,8 +82,6 @@
     
     
 }
-
-
 
 .container-galeria{
     width: 50%;
@@ -140,7 +134,6 @@
     font-size: 2.5vw;
     font-family: 'Courier New', Courier, monospace;
 }
-
 
 .espacio{
     padding: 30px 0 60px 0;
@@ -221,7 +214,6 @@ flex-direction: row-reverse;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-
 }
 
 .button{
@@ -243,7 +235,6 @@ flex-direction: row-reverse;
 }
 
 /* Preloader */
-
 .preloader {
     background: var(--bg-color-header);
     bottom: 0;
@@ -452,8 +443,6 @@ margin-top: 20px;
     width: 27%;
     top: 12px;
 }
-
-
 
 .button-registro{
 
