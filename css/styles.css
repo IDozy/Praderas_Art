@@ -491,3 +491,52 @@ margin-top: 20px;
     margin: auto;
     margin-bottom: 15px;
 }
+
+
+.curso-principal{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 95% 5%;
+    gap: 3%;
+    row-gap: 50px;  
+    
+}
+
+.container_12{
+    padding-top: 5%;
+}
+
+/*----------------------*/
+
+a.btn {
+	background: var(--bg-color-header);
+	display: inline-block;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	line-height:1em;
+	padding: 11px 30px 12px 30px;
+	color: #fff;
+	text-transform:uppercase;
+	margin-top: 33px;
+}
+
+a.btn:hover {
+	background:  #fe8948;
+	color: #fff;
+}
+
+.grid_3{
+    backdrop-filter: blur(3px);
+    background-color: #ffffff72;
+    text-align: center;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+.grid_3 img{
+    
+    width: 80px;
+    height: 80px;
+ 
+    
+}
