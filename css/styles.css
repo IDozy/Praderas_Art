@@ -180,8 +180,6 @@ flex-direction: row-reverse;
 
 }
 
-
-
 .button-empezar{
     width: 50vh;
     height: 10vh;
@@ -466,7 +464,6 @@ margin-top: 20px;
     
 }
 
-
 .cursos{
     width: 100%;
     display: grid;
@@ -499,4 +496,44 @@ margin-top: 20px;
     width: 50vh;
     margin: auto;
     margin-bottom: 15px;
+}
+
+article {
+    border: 2px solid #903;
+    width: 40%;
+    height: 5%;
+    display: inline-block;
+    margin: 10px 30px;
+    padding: 20px;
+}
+
+    article figure{
+        text-align: left;
+        
+    }
+
+    article p {
+        text-align: justify;
+    }
+
+.blogsection{
+    width: 50%;
+    height: 100px;
+}
+
+.centerblog{
+    background: var(--bg-color-blur);
+    max-width: 90%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: -10% auto ;
+    backdrop-filter: blur(5px);
+    border-radius: 30px ;
+    -webkit-border-radius: 30px ;
+    -moz-border-radius: 30px ;
+    -ms-border-radius: 30px ;
+    -o-border-radius: 30px ;
+    
 }
