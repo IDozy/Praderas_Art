@@ -101,6 +101,7 @@
 .center{
     background: var(--bg-color-blur);
     max-width: 70%;
+    max-height: 50%;
     overflow: hidden;
     position: absolute;
     left: 0;
@@ -326,7 +327,6 @@ ul.footer_box li a:hover{
 	margin-top: 10%;
 	width:100%;
 	position:relative;
-
 }
 
 .footer_search input[type="text"] {
@@ -596,17 +596,20 @@ margin-bottom: 50px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   gap: 10px;
+    gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     margin: -25% auto 100% auto;
     
 }
+
 .cursos--text{
     border: 1px solid var(--bg-color-hex);
     margin: 5px;
     text-align: justify;
     padding: 15px;
-  font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
+    width: 95%;
+    height: 50%;
 }
 
 .cursos--img{
@@ -720,7 +723,6 @@ a.btn:hover {
 aside{
     display: block;
     height:100vh;
-   
 }
 #aside1{
     display: flex;
