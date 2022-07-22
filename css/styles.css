@@ -109,7 +109,7 @@
 .center{
     background: var(--bg-color-blur);
     max-width: 70%;
-    
+   
     overflow: hidden;
     position: absolute;
     left: 0;
@@ -480,6 +480,7 @@ margin-top: 20px;
     text-align: justify;
     padding: 15px;
   font-family: 'Times New Roman', Times, serif;
+  width: 95%;
 }
 
 .cursos--img{
