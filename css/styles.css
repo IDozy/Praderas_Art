@@ -453,4 +453,201 @@ margin-top: 20px;
 
 }
 
+/*--SECTION COMUNIDAD--*/
+section{
+width: 100%;
+height: 100vh;
+margin:0;
+}
+
+#imgPrincipal{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+}
+
+
+#capaComunidad{
+    width: 100%;
+    height: 100vh;
+    background:radial-gradient(circle at 100% 50%,rgba(255,255,255,0) 30%, rgba(0,0,0,0.95) 50%);
+    z-index: 2;
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#textoComunidad{
+width: 100vh;
+height: 90vh;
+position:absolute;
+z-index: 3;
+top: 60px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#tc1{
+width: 90% ;
+margin-top: 65px;
+margin-bottom: 50px;
+
+}
+
+#tc1 p {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+    text-align: center;
+    margin:auto;
+}
+#tc2{
+    width: 90% ;
+    display: flex;
+    flex-direction: column; 
+    align-items:center;
+    }
+
+.tc21{
+    width: 95% ;
+    margin: auto;  
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    position: relative;
+}
+
+
+.tc21 p {
+    color: white;
+    margin-left: 60px;
+    display: flex;
+}
+
+.tc211{
+    border: 3px solid goldenrod ;
+    width: 80vh;
+    margin-right: 0px;
+    margin-left: 10vh;
+
+}
+
+.textTc2111{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 20px;
+    margin-bottom: 2px;
+    
+}
+
+.textTc2112{ 
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.textTc2113{    
+    font-size: 16px;
+    margin-left: 10px;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.fotoComentador{
+    width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border:3px solid white;
+    margin-right:0px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 5vh;
+
+
+}
+
+
+/*ASIDECOMUNIDAD*/
+
+aside{
+    display: block;
+    height:100vh;
+   
+}
+#aside1{
+    display: flex;
+    flex-direction:column;
+    border: 1px solid red;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+#textA11{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border:1px solid yellow;
+    width: 90%;
+    text-align: center;
+}
+#textA12{
+    border:1px solid yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#aside2{
+    border: 1px solid blue;
+    display: flex;
+}
+
+.aside21{
+    border: 1px solid brown ;
+    width: 30%;
+    height: 200px;
+    margin:auto;
+
+}
+
+.cabezaA211{
+    border: 1px solid greenyellow ;
+    width: 90%;
+    height: 20px;
+}
+
+.imgA2111{
+    border: 1px solid purple;
+    width: 90%;
+    height: 10px;
+}
+
+.imgA2112{
+    border: 1px solid purple;
+    width: 90%;
+    height: 10px;
+}
+
+#textA212{
+    border: 1px solid greenyellow ;
+    width: 90%;
+    height: 20px;
+}
+
+
+
+
+
 
