@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: Blueberry Days;
-    src: url("/assets/fonts/Blueberry\ Days.ttf");
+    src: url("assets/fonts/Blueberry\ Days.ttf");
 }
 
  .parallax{
@@ -42,23 +42,23 @@
 }
 
 .parallax-uno{
-    background-image: url("/assets/images/imagenCinco.jpg");
+    background-image: url("assets/images/imagenCinco.jpg");
     flex-wrap:wrap;
     justify-content: space-between;
     row-gap: 20px;
 }
 .parallax-dos{
-    background-image: url("/assets/images/imagenNueve.jpg");
+    background-image: url("assets/images/imagenNueve.jpg");
     justify-content: center;
     align-items: center;
 }
 
 .parallax-tres{
-    background-image: url("/assets/images/imagenSiete.jpg");
+    background-image: url("assets/images/imagenSiete.jpg");
 }
 
 .parallax-Cuatro{
-    background-image: url("/assets/images/imagenCuatro.jpg");
+    background-image: url("assets/images/imagenCuatro.jpg");
 }
 
 .container-text{
